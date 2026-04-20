@@ -1,7 +1,43 @@
-body{
-    background-color: #faf6f4;
-    font-family: sans-serif;
-    color: #3a2a25;
-    font-weight: 300;
-    line-height: 1.5;
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #faf6f4;
+  font-family: "Jost", sans-serif;
+  color: #3a2a25;
+  font-weight: 300;
+  line-height: 1.5;
+}
+header {
+  background-color: #ffffff;
+  border-bottom: 2px solid #e8c4b8;
+  padding: 16px 32px;
+}
+.heading {
+  font-weight: 300;
+  font-size: 32px;
+  color: #3a2a25;
+}
+.heading span {
+  color: #c47f6e;
+  font-size: 24px;
+  margin-left: 48px;
+}
+.navigation {
+  /* max-width: 1100px; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  color: #7a5c54;
+}
+.navigation a {
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+.navigation a:hover {
+  color: #c47f6e;
 }
