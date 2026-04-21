@@ -147,3 +147,46 @@ h1 {
 .photo_card img:hover{
   transform: scale(1.05);
 }
+.feedback{
+
+}
+.feedback form{
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 600px;
+}
+.feedback label{
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #7a5c54;
+}
+.feedback textarea{
+  width: 100%;
+  border: 1px solid #e8c4b8;
+  background-color: #ffffff;
+  padding: 14px 16px;
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  resize: none;
+  transition: border-color 0.2s;
+  color:  #3a2a25;
+}
+.feedback textarea:focus{
+  border-color:  #c47f6e;
+}
+button{
+  padding: 8px 8px;
+  background-color: #e8c4b8;
+  color: #ffffff;
+  font-family: 'Georgia' serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  cursor: pointer;
+   transition: background-color 0.3s, transform 0.2s;
+}
+button:hover{
+  background-color: #7a5c54;
+}
