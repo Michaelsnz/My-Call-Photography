@@ -22,6 +22,9 @@ To run this project locally:
 3. Place any photos inside an `images/` folder in the same directory
 4. Open `index.html` in any web browser — no installs needed!
 
+## Link to Site
+https://michaelsnz.github.io/My-Call-Photography/
+
 ## Copyright & License
 
 © 2026 Michael Mwendwa. All rights reserved.  
