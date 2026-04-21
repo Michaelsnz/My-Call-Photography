@@ -122,71 +122,106 @@ h1 {
   border-bottom: 1px solid #e8d0c8;
   overflow: hidden;
 }
-.gallery:last-child{
+.gallery:last-child {
   border-bottom: none;
   margin-bottom: 0;
 }
-.photo_grid{
+.photo_grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap 12px
+  gap: 12px;    
   margin-top: 16px;
 }
-.photo_card{
+.photo_card {
   overflow: hidden;
   border: 1px solid #e8d0c8;
   background-color: #e8c4b8;
 }
-.photo_card img{
+.photo_card img {
   width: 100%;
   object-fit: cover;
   display: block;
   transition: transform 0.5s ease;
   background-color: #e8c4b8;
 }
-.photo_card img:hover{
+.photo_card img:hover {
   transform: scale(1.05);
 }
-.feedback{
-
+.feedback {
+  background-color: #fdf0eb;
+  border-radius: 16px;
+  border-bottom: 1px solid #e8d0c8;
+  max-width: 1400px;
+  margin-top: 16px;
 }
-.feedback form{
+.feedback form {
   margin-top: 32px;
   display: flex;
   flex-direction: column;
   gap: 12px;
   max-width: 600px;
 }
-.feedback label{
+.feedback label {
   font-size: 12px;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #7a5c54;
 }
-.feedback textarea{
+.feedback textarea {
   width: 100%;
   border: 1px solid #e8c4b8;
   background-color: #ffffff;
   padding: 14px 16px;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   font-size: 16px;
   resize: none;
   transition: border-color 0.2s;
-  color:  #3a2a25;
+  color: #3a2a25;
 }
-.feedback textarea:focus{
-  border-color:  #c47f6e;
+.feedback textarea:focus {
+  border-color: #c47f6e;
 }
-button{
+button {
   padding: 8px 8px;
   background-color: #e8c4b8;
   color: #ffffff;
-  font-family: 'Georgia' serif;
+  font-family: "Georgia" serif;
   font-size: 12px;
   letter-spacing: 2px;
   cursor: pointer;
-   transition: background-color 0.3s, transform 0.2s;
+  transition:
+    background-color 0.3s,
+    transform 0.2s;
 }
-button:hover{
+button:hover {
   background-color: #7a5c54;
+}
+
+.contact {
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 480px;
+}
+.contact label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #7a5c54;
+}
+.contact input {
+  width: 100%;
+  border: 1px solid #e8c4b8;
+  background-color: #ffffff;
+  padding: 16px;
+  font-family: "Georgia" serif;
+  font-size: 16px;
+  color: #3a2a25;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.contact input:focus{
+  border-color: #c47f6e;
 }
