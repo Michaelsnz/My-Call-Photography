@@ -8,6 +8,12 @@ body {
   font-weight: 300;
   line-height: 1.5;
 }
+/* General styling for all sections */
+section{
+  margin: 0 auto;
+  padding: 64px 32px;
+  max-width: 1200px;
+}
 header {
   background-color: #ffffff;
   border-bottom: 2px solid #e8c4b8;
@@ -24,7 +30,7 @@ header {
   margin-left: 48px;
 }
 .navigation {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -41,11 +47,35 @@ header {
 .navigation a:hover {
   color: #c47f6e;
 }
+h1{
+  font-style: italic;
+}
 #welcome {
-  background-color:  #ffffff;
+  background-color:   #fdf0eb;
   border-radius: 16px;
   margin: 20px auto;
   max-width: 1400px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, alpha);
   padding: 24px;
+  border-bottom: 1px solid   #e8d0c8;
+}
+.about{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  max-width: 1800px;
+}
+#about_website{
+  background-color: #fdf0eb;
+  border-radius: 16px;
+  text-align: center;
+  border-bottom:1px solid #e8d0c8;
+  list-style: inside;
+}
+#about_me{
+  background-color: #fdf0eb;
+  border-radius: 16px;
+  text-align: center;
+  border-bottom: 1px solid #e8d0c8;
+  list-style: inside;
 }
