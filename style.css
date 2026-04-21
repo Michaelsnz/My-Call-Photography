@@ -244,3 +244,7 @@ footer p{
 footer em{
   color: #f5e6e0;
 }
+.combined{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
