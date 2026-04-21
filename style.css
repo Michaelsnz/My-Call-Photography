@@ -12,7 +12,7 @@ body {
 section{
   margin: 0 auto;
   padding: 64px 32px;
-  max-width: 1200px;
+  max-width: 1800px;
 }
 header {
   background-color: #ffffff;
@@ -78,4 +78,33 @@ h1{
   text-align: center;
   border-bottom: 1px solid #e8d0c8;
   list-style: inside;
+}
+.favs{
+  background-color: #fdf0eb;
+  border-radius: 16px;
+  border-bottom: 1px solid #e8d0c8;
+  max-width: 1400px;
+}
+#ordered_list{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+#ordered_list div{
+  background-color: #ffffff;
+  border:   1px solid  #e8d0c8;
+  padding: 16px;
+  text-align: center;
+}
+#ordered_list li{
+  font-size: 16px;
+  color: #7a5c54;
+  margin-bottom: 16px;
+}
+#ordered_list img{
+  width: 100%;
+  object-fit: cover;
+  background-color: #e8c4b8;
+  display: block;
 }
