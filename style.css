@@ -9,7 +9,7 @@ body {
   line-height: 1.5;
 }
 /* General styling for all sections */
-section{
+section {
   margin: 0 auto;
   padding: 64px 32px;
   max-width: 1800px;
@@ -47,64 +47,103 @@ header {
 .navigation a:hover {
   color: #c47f6e;
 }
-h1{
+h1 {
   font-style: italic;
 }
 #welcome {
-  background-color:   #fdf0eb;
+  background-color: #fdf0eb;
   border-radius: 16px;
   margin: 20px auto;
   max-width: 1400px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, alpha);
   padding: 24px;
-  border-bottom: 1px solid   #e8d0c8;
+  border-bottom: 1px solid #e8d0c8;
 }
-.about{
+.about {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 32px;
   max-width: 1800px;
 }
-#about_website{
-  background-color: #fdf0eb;
-  border-radius: 16px;
-  text-align: center;
-  border-bottom:1px solid #e8d0c8;
-  list-style: inside;
-}
-#about_me{
+#about_website {
   background-color: #fdf0eb;
   border-radius: 16px;
   text-align: center;
   border-bottom: 1px solid #e8d0c8;
   list-style: inside;
 }
-.favs{
+#about_me {
+  background-color: #fdf0eb;
+  border-radius: 16px;
+  text-align: center;
+  border-bottom: 1px solid #e8d0c8;
+  list-style: inside;
+}
+.favs {
   background-color: #fdf0eb;
   border-radius: 16px;
   border-bottom: 1px solid #e8d0c8;
   max-width: 1400px;
 }
-#ordered_list{
+#ordered_list {
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
-#ordered_list div{
+#ordered_list div {
   background-color: #ffffff;
-  border:   1px solid  #e8d0c8;
+  border: 1px solid #e8d0c8;
   padding: 16px;
   text-align: center;
 }
-#ordered_list li{
+#ordered_list li {
   font-size: 16px;
   color: #7a5c54;
   margin-bottom: 16px;
 }
-#ordered_list img{
+#ordered_list img {
   width: 100%;
   object-fit: cover;
   background-color: #e8c4b8;
   display: block;
+}
+.gallery_section {
+  background-color: #fdf0eb;
+  border-radius: 16px;
+  border-bottom: 1px solid #e8d0c8;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 64px 32px;
+}
+.gallery {
+  margin-bottom: 48px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #e8d0c8;
+  overflow: hidden;
+}
+.gallery:last-child{
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.photo_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap 12px
+  margin-top: 16px;
+}
+.photo_card{
+  overflow: hidden;
+  border: 1px solid #e8d0c8;
+  background-color: #e8c4b8;
+}
+.photo_card img{
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+  background-color: #e8c4b8;
+}
+.photo_card img:hover{
+  transform: scale(1.05);
 }
