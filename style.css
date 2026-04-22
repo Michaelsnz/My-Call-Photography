@@ -160,7 +160,7 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  max-width: 600px;
+  max-width: 600px; 
 }
 .feedback label {
   font-size: 12px;
@@ -186,6 +186,7 @@ button {
   padding: 8px 8px;
   background-color: #e8c4b8;
   color: #ffffff;
+  font-weight: 600;
   font-family: "Georgia" serif;
   font-size: 12px;
   letter-spacing: 2px;
@@ -209,6 +210,7 @@ button:hover {
   flex-direction: column;
   gap: 12px;
   max-width: 480px;
+  margin: 0 100px;
 }
 .contact label {
   font-size: 12px;
