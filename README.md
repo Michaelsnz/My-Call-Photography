@@ -24,12 +24,8 @@ To run this project locally:
 3. Place any photos inside an `images/` folder in the same directory
 4. Open `index.html` in any web browser — no installs needed!
 
-<<<<<<< HEAD
-## Link to Site
-=======
 ## Live Site
 
->>>>>>> 483a862 (Feat: Name changes to images, resizing of photos and addition of liscence to the readme)
 https://michaelsnz.github.io/My-Call-Photography/
 
 ## Licence & Copyright
